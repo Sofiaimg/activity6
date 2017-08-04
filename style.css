@@ -1,0 +1,115 @@
+@media(max-width: 799px){
+	.box{margin: 10px;}
+	.header{font-size: 10vh;}
+	.cell1, .cell2, .cell3, .cell4, .cell5, .cell6{
+		width: 100%
+	}
+}
+@media (min-width: 800px) and (max-width: 1369px) {
+	.box{margin: 30px}
+	.header{font-size: 20vh }
+	.cell1, .cell3, .cell5{
+		width: 60%
+	}	
+	.cell2, .cell4, .cell6{
+		width: 40%
+	}
+}
+@media (min-width: 1370px){
+	.box{margin: 100px}
+	.header{font-size: 50vh }
+	.cell1, .cell3, .cell5{
+		width: 60%
+	}	
+	.cell2, .cell4, .cell6{
+		width: 40%
+	}
+}
+body{background-color: lightgray;
+	height: 95%;
+font-family: "freesans";
+}
+.box{background-color: white;
+	
+}
+.header{
+	text-align: center;
+	border: double 2px lightgray;
+	font-size: 2vh;
+}
+.profilepic{
+	width: 25%;
+	border-radius: 100%;
+	text-align: center;
+}
+h2{color: red;
+	font-weight: bold;
+	font-size: 3vh;
+}
+span{font-weight: bold;
+}
+.header span{color: red
+}
+.row1, .row2, .row3{clear: both;
+}
+.cell1, .cell2{padding: 20px;
+	float: left;
+	box-sizing: border-box;
+}
+.cell3, .cell5{	
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 20px;
+}
+.cell33, .cell55{float: left;
+}
+.cell34{margin-left: 100px;
+	background-color: lightgray;
+	margin-bottom: 3px;
+	box-sizing: border-box;
+	padding: 3px;
+}
+.cell4, .cell6{
+	padding: 20px;
+	float: right;
+	box-sizing: border-box;
+}
+.cell4 li{
+	background-color: #EB4D30;
+	height: 30px;
+	color: white; 
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+.Phython{
+	width: 90%;
+}
+.HTML{
+	width: 70%;
+}
+.CSS{
+	width: 50%;
+}
+.JS{
+	width: 30%;
+}
+.PHP{
+	width: 10%;
+}
+.cell56{margin-left: 150px;
+	box-sizing: border-box;
+}
+.ulskills{list-style-type: none;
+}
+.stars{	float: right;
+}
+.cell67 li {display: inline-block;
+	background-color: purple;
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	box-sizing: border-box;
+}
+h6{margin: 0px;
+}
